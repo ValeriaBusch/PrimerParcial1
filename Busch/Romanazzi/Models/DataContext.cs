@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
+﻿using System.Data.Entity;
 
 namespace Romanazzi.Models
 {
@@ -12,5 +8,7 @@ namespace Romanazzi.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Romanazzi.Models.Clown> Clowns { get; set; }
     }
 }
